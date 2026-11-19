@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "spellblock:deck_box_blue",
+    "spellblock:deck_box_red",
+    "spellblock:deck_box_white",
+    "spellblock:deck_box_green",
+    "spellblock:deck_box_black",
+    "spellblock:deck_box_grey"
+  ]
+}

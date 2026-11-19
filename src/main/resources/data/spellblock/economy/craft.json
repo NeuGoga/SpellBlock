@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "owned_only": false,
+  "allow_foil": true,
+  "allow_etched": true,
+  "max_batch": 4,
+  "multiplier": 1.0,
+  "percent": 100,
+  "allow_treatments": {
+    "normal": true,
+    "retro": true,
+    "borderless": true,
+    "special_guest": true
+  },
+  "rarity": {
+    "common": 20,
+    "uncommon": 80,
+    "rare": 400,
+    "mythic": 1600,
+    "special": 1600,
+    "bonus": 1600
+  },
+  "finish_multipliers": {
+    "nonfoil": 1.0,
+    "foil": 2.0,
+    "etched": 2.0
+  },
+  "treatment_multipliers": {
+    "normal": 1.0,
+    "retro": 1.0,
+    "borderless": 2.0,
+    "special_guest": 2.0
+  },
+  "set_multipliers": {
+    "lea": 1.0,
+    "arn": 1.0,
+    "atq": 1.0,
+    "leg": 1.0,
+    "tmp": 1.0,
+    "usg": 1.0,
+    "mrd": 1.0,
+    "rav": 1.0,
+    "unh": 1.0,
+    "zen": 1.0,
+    "isd": 1.0,
+    "ktk": 1.0,
+    "ust": 1.0,
+    "dom": 1.0,
+    "war": 1.0,
+    "mh1": 1.0,
+    "eld": 1.0,
+    "mh2": 1.0,
+    "unf": 1.0,
+    "mh3": 1.0
+  },
+  "overrides": {},
+  "recipes": []
+}

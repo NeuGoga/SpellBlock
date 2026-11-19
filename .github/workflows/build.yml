@@ -1,0 +1,63 @@
+# Automatically build the project and run any configured tests for every push
+# and submitted pull request. This can help catch issues that only occur on
+# certain platforms or Java versions, and provides a first line of defence
+# against bad commits.
+
+name: build
+on: [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+      - name: setup jdk
+        uses: actions/setup-java@v5
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+      - name: setup gradle
+        uses: gradle/actions/setup-gradle@v6
+      - name: make gradle wrapper executable
+        run: chmod +x ./gradlew
+      - name: run tests
+        run: ./gradlew test --no-daemon --stacktrace
+      - name: publish test summary
+        if: always()
+        run: |
+          python3 - <<'EOF'
+          import glob, os, xml.etree.ElementTree as ET
+          files = sorted(glob.glob("build/test-results/test/TEST-*.xml"))
+          total = failed = skipped = 0
+          rows = []
+          for f in files:
+              root = ET.parse(f).getroot()
+              name = root.attrib.get("name", os.path.basename(f))
+              t = int(root.attrib.get("tests", 0))
+              fail = int(root.attrib.get("failures", 0)) + int(root.attrib.get("errors", 0))
+              skip = int(root.attrib.get("skipped", 0))
+              total += t
+              failed += fail
+              skipped += skip
+              rows.append(f"| `{name}` | {t - fail - skip} | {fail} | {skip} |")
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary_path:
+              with open(summary_path, "a") as out:
+                  out.write(f"### JUnit Results: {total - failed - skipped}/{total} passed ({failed} failed, {skipped} skipped)\n\n")
+                  out.write("| Suite | Passed | Failed | Skipped |\n|---|---:|---:|---:|\n")
+                  out.write("\n".join(rows) + "\n")
+          EOF
+      - name: upload test report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: test-reports
+          path: build/reports/tests/test/
+      - name: build mod jar
+        run: ./gradlew build -x test --no-daemon --stacktrace
+      - name: capture build artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: Artifacts
+          path: build/libs/

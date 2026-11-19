@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "R": { "item": "minecraft:red_wool" },
+    "W": { "item": "minecraft:oak_planks" }
+  },
+  "result": {
+    "id": "spellblock:oak_card_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "spellblock:item/ust_draft_booster"
+	}
+}

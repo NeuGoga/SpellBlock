@@ -1,0 +1,80 @@
+{
+	"id": "atq_draft",
+	"set": "atq",
+	"item": "atq_draft_booster",
+	"name": "Antiquities Booster",
+	"rarity": "epic",
+	"box_item": "atq_draft_box",
+	"box_count": 60,
+	"box_rarity": "epic",
+	"notes": "8 cards like Arabian Nights: 6C/1U/1R. Box held 60 packs. No basic land slot.",
+	"queries": [
+		"set:atq"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

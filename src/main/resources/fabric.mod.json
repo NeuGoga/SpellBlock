@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "spellblock",
+	"version": "${version}",
+	"name": "SpellBlock",
+	"description": "Collect Magic: The Gathering cards from looted booster packs, craft or trade printings, and play on scripted multi-seat card tables.",
+	"authors": [
+		"NeuGoga"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/GMVYwf3pT",
+		"sources": "https://github.com/NeuGoga/SpellBlock"
+	},
+	"license": "MIT",
+	"icon": "assets/spellblock/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.neugoga.spellblock.SpellBlock"
+		],
+		"client": [
+			"com.neugoga.spellblock.client.SpellBlockClient"
+		]
+	},
+	"mixins": [
+		"spellblock.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

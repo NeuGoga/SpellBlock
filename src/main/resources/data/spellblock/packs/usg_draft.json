@@ -1,0 +1,136 @@
+{
+	"id": "usg_draft",
+	"set": "usg",
+	"item": "usg_draft_booster",
+	"name": "Urza's Saga Draft Booster",
+	"rarity": "epic",
+	"box_item": "usg_draft_box",
+	"box_count": 36,
+	"box_rarity": "epic",
+	"notes": "15 cards. Old-frame printings use retro_* pools. Pre-mythic rare slot.",
+	"queries": [
+		"set:usg"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_rare",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

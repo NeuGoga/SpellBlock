@@ -1,0 +1,39 @@
+name: export-parts
+on:
+  workflow_dispatch:
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: split
+        run: |
+          python3 << 'PY'
+          from pathlib import Path
+          files = [
+            Path("src/client/java/com/neugoga/spelltable/client/TableScreen.java"),
+            Path("TODO.md"),
+          ]
+          out = Path("agent-parts")
+          out.mkdir(exist_ok=True)
+          for f in files:
+              data = f.read_text(encoding="utf-8")
+              size = 8000
+              parts = [data[i:i+size] for i in range(0, max(len(data), 1), size)]
+              for n, part in enumerate(parts):
+                  (out / f"{f.name}.{n:02d}").write_text(part, encoding="utf-8")
+              (out / f"{f.name}.count").write_text(str(len(parts)), encoding="utf-8")
+          PY
+      - name: publish
+        run: |
+          git config user.email "spelltable@users.noreply.github.com"
+          git config user.name "spelltable"
+          git checkout -B agent/export
+          git add agent-parts
+          git commit -m "Temporary source parts"
+          git push -u origin agent/export --force

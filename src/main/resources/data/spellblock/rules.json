@@ -1,0 +1,11 @@
+{
+  "dustery": true,
+  "dust": true,
+  "craft": true,
+  "trade": true,
+  "chest_loot": true,
+  "import": true,
+  "grant": true,
+  "trade_cooldown_seconds": 60,
+  "trade_max_distance": 64
+}

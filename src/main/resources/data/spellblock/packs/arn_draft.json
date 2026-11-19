@@ -1,0 +1,80 @@
+{
+	"id": "arn_draft",
+	"set": "arn",
+	"item": "arn_draft_booster",
+	"name": "Arabian Nights Booster",
+	"rarity": "epic",
+	"box_item": "arn_draft_box",
+	"box_count": 60,
+	"box_rarity": "epic",
+	"notes": "8 cards historical Arabian Nights booster: 6C/1U/1R. Box held 60 packs.",
+	"queries": [
+		"set:arn"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

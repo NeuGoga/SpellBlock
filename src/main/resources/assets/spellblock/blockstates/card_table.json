@@ -1,0 +1,532 @@
+{
+  "variants": {
+    "wood=oak,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=oak,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_oak"
+    },
+    "wood=spruce,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=spruce,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_spruce"
+    },
+    "wood=birch,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=birch,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_birch"
+    },
+    "wood=jungle,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=jungle,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_jungle"
+    },
+    "wood=acacia,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=acacia,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_acacia"
+    },
+    "wood=dark_oak,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=dark_oak,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_dark_oak"
+    },
+    "wood=mangrove,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=mangrove,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_mangrove"
+    },
+    "wood=cherry,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=cherry,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_cherry"
+    },
+    "wood=bamboo,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=bamboo,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_bamboo"
+    },
+    "wood=crimson,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=crimson,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_crimson"
+    },
+    "wood=warped,size=single,x=0,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=single,x=0,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=single,x=1,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=single,x=1,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_x,x=0,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_x,x=0,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_x,x=1,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_x,x=1,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_z,x=0,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_z,x=0,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_z,x=1,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=long_z,x=1,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=square,x=0,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=square,x=0,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=square,x=1,z=0": {
+      "model": "spellblock:block/card_table_warped"
+    },
+    "wood=warped,size=square,x=1,z=1": {
+      "model": "spellblock:block/card_table_warped"
+    }
+  }
+}
