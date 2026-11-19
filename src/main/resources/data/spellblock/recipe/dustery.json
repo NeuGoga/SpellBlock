@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "X": { "tag": "minecraft:planks" }
+  },
+  "result": {
+    "id": "spellblock:dustery",
+    "count": 1
+  }
+}

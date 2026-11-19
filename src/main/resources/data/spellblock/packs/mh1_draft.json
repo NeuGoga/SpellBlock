@@ -1,0 +1,140 @@
+{
+	"id": "mh1_draft",
+	"set": "mh1",
+	"item": "mh1_draft_booster",
+	"name": "Modern Horizons Draft Booster",
+	"notes": "15 cards. Classic draft sheet: 10 commons, 3 uncommons, 1 rare-or-mythic, 1 basic. Rare slot is about 7:1 rare to mythic (870/130 of 1000). Treatments beyond normal rarity are not split; every printing in a pool is equally likely.",
+	"queries": [
+		"set:mh1"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 870
+				},
+				{
+					"pool": "mythic",
+					"weight": 130
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "basic",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"rarity": "epic",
+	"box_item": "mh1_draft_box",
+	"box_count": 36,
+	"box_rarity": "epic"
+}

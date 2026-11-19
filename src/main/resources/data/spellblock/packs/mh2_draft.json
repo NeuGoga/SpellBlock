@@ -1,0 +1,283 @@
+{
+	"id": "mh2_draft",
+	"set": "mh2",
+	"item": "mh2_draft_booster",
+	"name": "Modern Horizons 2 Draft Booster",
+	"notes": "15 cards. No token. Weights in a slot sum to 1000. Source is Collecting Modern Horizons 2 (May 21, 2021). Commons: 23 of 101 have a showcase, and that printing shows up once for every two regulars, so a common slot is 924 common / 33 sketch / 43 retro. Uncommons: 24 of 80, same 2-to-1, so 900 / 63 / 37. The extra 20 uncommons in the uncommon pool are new-to-Modern reprints with no Scryfall flag, same limit as MH3. New-to-Modern slot is 20 uncommon / 18 rare / 4 mythic of 42, rolled against the whole set, not that list. Rare slot is two copies of each of 60 rares and one of each of 20 mythics (780/130), and 9% of the time a retro or borderless printing instead (44/19/21/6 by pool size). Extended-art rares sit in borderless_rare because that is the treatment rule. One buy-a-box retro mythic is in retro_mythic. The last slot is a common, and a foil common in 1 of 3 packs. Wizards did not publish the foil rarity split, so this foil stays on the common sheet.",
+	"queries": [
+		"set:mh2"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 924
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 33
+				},
+				{
+					"pool": "retro_common",
+					"weight": 43
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 900
+				},
+				{
+					"pool": "borderless_uncommon",
+					"weight": 63
+				},
+				{
+					"pool": "retro_uncommon",
+					"weight": 37
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 900
+				},
+				{
+					"pool": "borderless_uncommon",
+					"weight": 63
+				},
+				{
+					"pool": "retro_uncommon",
+					"weight": 37
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 900
+				},
+				{
+					"pool": "borderless_uncommon",
+					"weight": 63
+				},
+				{
+					"pool": "retro_uncommon",
+					"weight": 37
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 476
+				},
+				{
+					"pool": "rare",
+					"weight": 429
+				},
+				{
+					"pool": "mythic",
+					"weight": 95
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 780
+				},
+				{
+					"pool": "mythic",
+					"weight": 130
+				},
+				{
+					"pool": "borderless_rare",
+					"weight": 44
+				},
+				{
+					"pool": "borderless_mythic",
+					"weight": 19
+				},
+				{
+					"pool": "retro_rare",
+					"weight": 21
+				},
+				{
+					"pool": "retro_mythic",
+					"weight": 6
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 616
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 22
+				},
+				{
+					"pool": "retro_common",
+					"weight": 29
+				},
+				{
+					"pool": "common",
+					"weight": 308,
+					"foil": true
+				},
+				{
+					"pool": "borderless_common",
+					"weight": 11,
+					"foil": true
+				},
+				{
+					"pool": "retro_common",
+					"weight": 14,
+					"foil": true
+				}
+			]
+		}
+	],
+	"rarity": "epic",
+	"box_item": "mh2_draft_box",
+	"box_count": 36,
+	"box_rarity": "epic"
+}

@@ -1,0 +1,268 @@
+{
+	"id": "mh3_play",
+	"set": "mh3",
+	"item": "mh3_play_booster",
+	"name": "Modern Horizons 3 Play Booster",
+	"notes": "14 cards. Weights inside a slot sum to 1000, so a weight is a tenth of a percent. Queries are set:mh3 plus Special Guests cn 39-48. See docs/pack-data.md for what each pool is and what the sheet could not split.",
+	"queries": [
+		"set:mh3",
+		"set:spg cn>=39 cn<=48"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 984
+				},
+				{
+					"pool": "special_guest",
+					"weight": 16
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 500
+				},
+				{
+					"pool": "basic",
+					"weight": 300
+				},
+				{
+					"pool": "basic",
+					"weight": 200,
+					"foil": true
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 798
+				},
+				{
+					"pool": "mythic",
+					"weight": 130
+				},
+				{
+					"pool": "retro_rare",
+					"weight": 16
+				},
+				{
+					"pool": "retro_mythic",
+					"weight": 5
+				},
+				{
+					"pool": "borderless_rare",
+					"weight": 40
+				},
+				{
+					"pool": "borderless_mythic",
+					"weight": 11
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 750
+				},
+				{
+					"pool": "rare",
+					"weight": 213
+				},
+				{
+					"pool": "mythic",
+					"weight": 23
+				},
+				{
+					"pool": "borderless_rare",
+					"weight": 8
+				},
+				{
+					"pool": "borderless_mythic",
+					"weight": 4
+				},
+				{
+					"pool": "retro_rare",
+					"weight": 1
+				},
+				{
+					"pool": "retro_mythic",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 417
+				},
+				{
+					"pool": "uncommon",
+					"weight": 417
+				},
+				{
+					"pool": "rare",
+					"weight": 67
+				},
+				{
+					"pool": "mythic",
+					"weight": 53
+				},
+				{
+					"pool": "borderless_rare",
+					"weight": 3
+				},
+				{
+					"pool": "borderless_mythic",
+					"weight": 1
+				},
+				{
+					"pool": "retro_common",
+					"weight": 6
+				},
+				{
+					"pool": "retro_uncommon",
+					"weight": 12
+				},
+				{
+					"pool": "retro_rare",
+					"weight": 18
+				},
+				{
+					"pool": "retro_mythic",
+					"weight": 6
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 417,
+					"foil": true
+				},
+				{
+					"pool": "uncommon",
+					"weight": 417,
+					"foil": true
+				},
+				{
+					"pool": "rare",
+					"weight": 67,
+					"foil": true
+				},
+				{
+					"pool": "mythic",
+					"weight": 53,
+					"foil": true
+				},
+				{
+					"pool": "borderless_rare",
+					"weight": 3,
+					"foil": true
+				},
+				{
+					"pool": "borderless_mythic",
+					"weight": 1,
+					"foil": true
+				},
+				{
+					"pool": "retro_common",
+					"weight": 6,
+					"foil": true
+				},
+				{
+					"pool": "retro_uncommon",
+					"weight": 12,
+					"foil": true
+				},
+				{
+					"pool": "retro_rare",
+					"weight": 18,
+					"foil": true
+				},
+				{
+					"pool": "retro_mythic",
+					"weight": 6,
+					"foil": true
+				}
+			]
+		}
+	],
+	"rarity": "epic",
+	"box_item": "mh3_play_box",
+	"box_count": 30,
+	"box_rarity": "epic"
+}

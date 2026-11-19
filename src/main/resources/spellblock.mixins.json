@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.neugoga.spellblock.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ReloadableServerRegistriesMixin",
+		"RecipeManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

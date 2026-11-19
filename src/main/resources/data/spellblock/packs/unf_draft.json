@@ -1,0 +1,140 @@
+{
+	"id": "unf_draft",
+	"set": "unf",
+	"item": "unf_draft_booster",
+	"name": "Unfinity Draft Booster",
+	"rarity": "uncommon",
+	"box_item": "unf_draft_box",
+	"box_count": 30,
+	"box_rarity": "rare",
+	"notes": "15 cards Un-set. Classic mythic-era sheet; attractions/stickers not modeled. Borderless not split.",
+	"queries": [
+		"set:unf"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 870
+				},
+				{
+					"pool": "mythic",
+					"weight": 130
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "basic",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

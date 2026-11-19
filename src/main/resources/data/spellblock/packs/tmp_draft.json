@@ -1,0 +1,136 @@
+{
+	"id": "tmp_draft",
+	"set": "tmp",
+	"item": "tmp_draft_booster",
+	"name": "Tempest Draft Booster",
+	"rarity": "rare",
+	"box_item": "tmp_draft_box",
+	"box_count": 36,
+	"box_rarity": "epic",
+	"notes": "15 cards. Old-frame printings land in retro_* pools (Scryfall frame 1997), so slots use retro_common/uncommon/rare.",
+	"queries": [
+		"set:tmp"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_rare",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "retro_common",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

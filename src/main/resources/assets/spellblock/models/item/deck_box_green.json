@@ -1,0 +1,6 @@
+{
+  "parent": "spellblock:block/deck_box",
+  "textures": {
+    "box": "spellblock:item/deck_box_green"
+  }
+}

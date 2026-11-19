@@ -1,0 +1,6 @@
+{
+  "parent": "spellblock:block/card_table",
+  "textures": {
+    "planks": "minecraft:block/crimson_planks"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:oak_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "oak"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:spruce_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "spruce"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:birch_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "birch"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:jungle_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "jungle"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:acacia_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "acacia"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:dark_oak_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "dark_oak"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:mangrove_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "mangrove"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:cherry_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "cherry"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:bamboo_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "bamboo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:crimson_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "crimson"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "spellblock:warped_card_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "spellblock:card_table",
+                  "properties": {
+                    "wood": "warped"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

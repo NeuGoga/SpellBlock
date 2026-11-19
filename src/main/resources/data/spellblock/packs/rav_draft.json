@@ -1,0 +1,136 @@
+{
+	"id": "rav_draft",
+	"set": "rav",
+	"item": "rav_draft_booster",
+	"name": "Ravnica: City of Guilds Draft Booster",
+	"notes": "15 cards. Pre-mythic draft sheet: 10 commons, 3 uncommons, 1 rare, 1 basic land. Weights are relative inside a slot. Source is the classic 2005 draft booster layout. No treatments beyond normal rarity pools.",
+	"queries": [
+		"set:rav"
+	],
+	"slots": [
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "common",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "uncommon",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "rare",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"options": [
+				{
+					"pool": "basic",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"rarity": "rare",
+	"box_item": "rav_draft_box",
+	"box_count": 36,
+	"box_rarity": "epic"
+}
