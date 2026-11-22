@@ -4,7 +4,7 @@ Unofficial Fabric mod for **Minecraft 1.21.1**. Collect Magic: The Gathering car
 
 Cards live in a **binder** or a **deck box** — never as inventory stacks of individual cards. Card data and images are fetched on demand from [Scryfall](https://scryfall.com/) and are not bundled inside the jar.
 
-- **Community Discord:** https://discord.gg/GMVYwf3pT
+- **Community Discord:** https://discord.gg/acMYXnc6yb
 - **Source & Issues:** https://github.com/NeuGoga/SpellBlock
 
 ## Features (Beta 2)
