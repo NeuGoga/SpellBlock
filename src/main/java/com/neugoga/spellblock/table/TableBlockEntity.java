@@ -1,11 +1,8 @@
 package com.neugoga.spellblock.table;
 
-import java.util.function.BiConsumer;
-
 import com.neugoga.spellblock.item.DeckBoxItem;
 import com.neugoga.spellblock.library.CardKey;
 import com.neugoga.spellblock.network.TableServer;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
@@ -19,6 +16,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+
+import java.util.function.BiConsumer;
 
 /** One piece of a table. Boxes and play zones are saved on the minimum corner only. */
 public final class TableBlockEntity extends BlockEntity {

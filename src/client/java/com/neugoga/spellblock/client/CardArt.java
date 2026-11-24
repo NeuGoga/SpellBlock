@@ -1,28 +1,23 @@
 package com.neugoga.spellblock.client;
 
+import com.mojang.blaze3d.platform.NativeImage;
 import com.neugoga.spellblock.SpellBlock;
-import com.neugoga.spellblock.catalog.OracleService;
 import com.neugoga.spellblock.config.ArtQuality;
 import com.neugoga.spellblock.config.SpellBlockConfig;
 import com.neugoga.spellblock.library.Finish;
-
-import com.mojang.blaze3d.platform.NativeImage;
-
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.resources.ResourceLocation;
 
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import javax.imageio.ImageIO;
-import java.net.URI;
 import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.Files;

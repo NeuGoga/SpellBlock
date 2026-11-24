@@ -24,7 +24,6 @@ import com.neugoga.spellblock.library.PrintingOption;
 import com.neugoga.spellblock.network.table.TableState;
 import com.neugoga.spellblock.pack.Printing;
 import com.neugoga.spellblock.pack.SetCatalog;
-
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -43,7 +42,6 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;

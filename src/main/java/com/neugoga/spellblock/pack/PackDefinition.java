@@ -1,8 +1,8 @@
 package com.neugoga.spellblock.pack;
 
-import java.util.List;
-
 import net.minecraft.world.item.Rarity;
+
+import java.util.List;
 
 /** One booster's slot table. Weights are relative inside a slot, not percents. */
 public record PackDefinition(

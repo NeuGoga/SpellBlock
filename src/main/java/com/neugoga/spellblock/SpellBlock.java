@@ -3,18 +3,16 @@ package com.neugoga.spellblock;
 import com.neugoga.spellblock.catalog.OracleService;
 import com.neugoga.spellblock.command.SpellBlockCommands;
 import com.neugoga.spellblock.datapack.SpellBlockDataPacks;
+import com.neugoga.spellblock.dustery.DusteryBlocks;
 import com.neugoga.spellblock.item.SpellBlockItems;
 import com.neugoga.spellblock.loot.SpellBlockLoot;
 import com.neugoga.spellblock.network.SpellBlockNetworking;
 import com.neugoga.spellblock.network.TableLifecycle;
 import com.neugoga.spellblock.pack.Packs;
 import com.neugoga.spellblock.pack.SetCatalog;
-import com.neugoga.spellblock.dustery.DusteryBlocks;
 import com.neugoga.spellblock.table.TableBlocks;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.resources.ResourceLocation;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

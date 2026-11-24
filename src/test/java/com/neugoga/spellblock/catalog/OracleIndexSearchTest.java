@@ -1,11 +1,11 @@
 package com.neugoga.spellblock.catalog;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 final class OracleIndexSearchTest {
 	private static OracleCard card(String id, String name, String type, String colors, String rarity) {

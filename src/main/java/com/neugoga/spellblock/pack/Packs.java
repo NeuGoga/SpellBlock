@@ -5,6 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.neugoga.spellblock.SpellBlock;
+import net.minecraft.world.item.Rarity;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,8 +16,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
-import net.minecraft.world.item.Rarity;
 
 /** Pack tables shipped in the jar. Adding a pack is a JSON file plus a line in the index. */
 public final class Packs {

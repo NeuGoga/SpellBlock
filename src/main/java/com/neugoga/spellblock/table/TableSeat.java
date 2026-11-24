@@ -1,13 +1,13 @@
 package com.neugoga.spellblock.table;
 
-import java.util.function.Function;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+
+import java.util.function.Function;
 
 /** A side of a joined table. A 1x1 has one seat, a 2x1 has the two long sides, a 2x2 has four. */
 public enum TableSeat {

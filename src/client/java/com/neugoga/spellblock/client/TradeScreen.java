@@ -1,24 +1,15 @@
 package com.neugoga.spellblock.client;
 
-import static com.neugoga.spellblock.client.ui.Ui.any;
-import static com.neugoga.spellblock.client.ui.Ui.colorRank;
-import static com.neugoga.spellblock.client.ui.Ui.inside;
-import static com.neugoga.spellblock.client.ui.Ui.rarityColor;
-import static com.neugoga.spellblock.client.ui.Ui.rarityLabel;
-
 import com.neugoga.spellblock.catalog.OracleIndex;
 import com.neugoga.spellblock.library.BinderCard;
-import com.neugoga.spellblock.library.Finish;
 import com.neugoga.spellblock.network.TradeActionC2SPayload;
 import com.neugoga.spellblock.network.TradeSyncS2CPayload;
-
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
-
 import org.lwjgl.glfw.GLFW;
 
 import java.util.ArrayList;
@@ -27,6 +18,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+
+import static com.neugoga.spellblock.client.ui.Ui.any;
+import static com.neugoga.spellblock.client.ui.Ui.colorRank;
+import static com.neugoga.spellblock.client.ui.Ui.inside;
+import static com.neugoga.spellblock.client.ui.Ui.rarityColor;
+import static com.neugoga.spellblock.client.ui.Ui.rarityLabel;
 
 /**
  * Full-screen 3-column player trade UI:

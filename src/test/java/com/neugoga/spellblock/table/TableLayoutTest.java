@@ -1,14 +1,13 @@
 package com.neugoga.spellblock.table;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import net.minecraft.core.BlockPos;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 final class TableLayoutTest {
 	@Test

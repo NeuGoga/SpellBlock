@@ -7,30 +7,28 @@ import com.neugoga.spellblock.catalog.OracleCard;
 import com.neugoga.spellblock.catalog.OracleIndex;
 import com.neugoga.spellblock.catalog.OracleService;
 import com.neugoga.spellblock.datapack.SpellBlockDataPacks;
-import com.neugoga.spellblock.network.BinderServer;
-import com.neugoga.spellblock.network.TradeServer;
+import com.neugoga.spellblock.item.DeckBoxItem;
+import com.neugoga.spellblock.item.SpellBlockComponents;
+import com.neugoga.spellblock.item.SpellBlockItems;
 import com.neugoga.spellblock.library.CardKey;
+import com.neugoga.spellblock.library.DeckBoxData;
+import com.neugoga.spellblock.library.DeckEntry;
 import com.neugoga.spellblock.library.Finish;
 import com.neugoga.spellblock.library.LibraryWorldData;
 import com.neugoga.spellblock.library.PlayerLibrary;
-import com.neugoga.spellblock.library.DeckBoxData;
-import com.neugoga.spellblock.library.DeckEntry;
-import com.neugoga.spellblock.item.DeckBoxItem;
-import com.neugoga.spellblock.item.SpellBlockItems;
-import com.neugoga.spellblock.item.SpellBlockComponents;
-
+import com.neugoga.spellblock.network.BinderServer;
+import com.neugoga.spellblock.network.TradeServer;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
 import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-
-import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.Commands;
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 
 public final class SpellBlockCommands {
 	private static final int MAX_COUNT = 1000;

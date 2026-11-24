@@ -1,15 +1,14 @@
 package com.neugoga.spellblock.network;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.neugoga.spellblock.SpellBlock;
 import com.neugoga.spellblock.library.BinderCard;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /** Private cards for a scry or surveil. Only the seat that started it receives this. */
 public record ScrySyncS2CPayload(BlockPos pos, String seat, String mode, List<BinderCard> cards) implements CustomPacketPayload {

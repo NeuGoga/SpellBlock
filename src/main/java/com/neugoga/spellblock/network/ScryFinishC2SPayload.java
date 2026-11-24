@@ -1,14 +1,13 @@
 package com.neugoga.spellblock.network;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.neugoga.spellblock.SpellBlock;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * How a scry or surveil ends. Each list holds original indexes from the sync packet.

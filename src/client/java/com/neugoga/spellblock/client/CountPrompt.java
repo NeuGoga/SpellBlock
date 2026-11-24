@@ -1,33 +1,9 @@
 package com.neugoga.spellblock.client;
 
-import static com.neugoga.spellblock.client.ui.Ui.inside;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import com.mojang.math.Axis;
-import com.neugoga.spellblock.item.SpellBlockComponents;
-import com.neugoga.spellblock.library.BinderCard;
-import com.neugoga.spellblock.library.DeckBoxData;
-import com.neugoga.spellblock.network.HandRevealS2CPayload;
-import com.neugoga.spellblock.network.HandSyncS2CPayload;
-import com.neugoga.spellblock.network.ScryFinishC2SPayload;
-import com.neugoga.spellblock.network.ScrySyncS2CPayload;
-import com.neugoga.spellblock.network.TableActionC2SPayload;
-import com.neugoga.spellblock.table.SeatZones;
-import com.neugoga.spellblock.table.TableBlock;
-import com.neugoga.spellblock.table.TableBlockEntity;
-import com.neugoga.spellblock.table.TableCard;
-import com.neugoga.spellblock.table.TableSeat;
-import com.neugoga.spellblock.table.TableSize;
-import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.EditBox;
-import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.state.BlockState;
+
 import static com.neugoga.spellblock.client.TableScreen.GOLD;
 import static com.neugoga.spellblock.client.TableScreen.MUTED;
 

@@ -1,11 +1,5 @@
 package com.neugoga.spellblock.loot;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.neugoga.spellblock.datapack.CardRestrictions;
 import com.neugoga.spellblock.datapack.JsonHelper;
 import com.neugoga.spellblock.datapack.PackRules;
@@ -14,10 +8,8 @@ import com.neugoga.spellblock.network.BinderServer;
 import com.neugoga.spellblock.pack.PackDefinition;
 import com.neugoga.spellblock.pack.Printing;
 import com.neugoga.spellblock.pack.SetPool;
-
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.Rarity;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
@@ -25,6 +17,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 final class LootAndPackSelectionTest {
 	@AfterEach

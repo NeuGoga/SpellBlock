@@ -1,9 +1,5 @@
 package com.neugoga.spellblock.datapack;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.google.gson.JsonObject;
 import com.neugoga.spellblock.catalog.OracleCard;
 import com.neugoga.spellblock.library.BinderCard;
@@ -11,7 +7,6 @@ import com.neugoga.spellblock.library.DustValues;
 import com.neugoga.spellblock.library.Finish;
 import com.neugoga.spellblock.pack.PackDefinition;
 import com.neugoga.spellblock.pack.Printing;
-
 import io.netty.buffer.Unpooled;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -23,7 +18,6 @@ import net.minecraft.server.packs.resources.MultiPackResourceManager;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.Rarity;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
@@ -35,6 +29,10 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 final class DatapackRulesTest {
 	@AfterEach

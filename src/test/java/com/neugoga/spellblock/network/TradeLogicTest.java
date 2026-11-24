@@ -1,17 +1,16 @@
 package com.neugoga.spellblock.network;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.neugoga.spellblock.library.CardKey;
 import com.neugoga.spellblock.library.Finish;
 import com.neugoga.spellblock.library.PlayerLibrary;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 final class TradeLogicTest {
 	@AfterEach

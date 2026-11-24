@@ -3,9 +3,9 @@
 	"package": "com.neugoga.spellblock.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ReloadableServerRegistriesMixin",
-		"RecipeManagerMixin"
-	],
+      "RecipeManagerMixin",
+      "ReloadableServerRegistriesMixin"
+    ],
 	"injectors": {
 		"defaultRequire": 1
 	}

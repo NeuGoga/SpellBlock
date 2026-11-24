@@ -1,19 +1,18 @@
 package com.neugoga.spellblock.table;
 
+import com.neugoga.spellblock.item.SpellBlockComponents;
+import com.neugoga.spellblock.library.DeckBoxData;
+import com.neugoga.spellblock.library.DeckFormat;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.Tag;
+import net.minecraft.world.item.ItemStack;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.neugoga.spellblock.item.SpellBlockComponents;
-import com.neugoga.spellblock.library.DeckBoxData;
-import com.neugoga.spellblock.library.DeckFormat;
-
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.ListTag;
-import net.minecraft.nbt.Tag;
-import net.minecraft.world.item.ItemStack;
 
 /** Hand, battlefield, graveyard, and exile for one seat. The library is the deck box. */
 public final class SeatZones {

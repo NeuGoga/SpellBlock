@@ -1,23 +1,20 @@
 package com.neugoga.spellblock.client;
 
-import com.neugoga.spellblock.network.FavouriteC2SPayload;
-import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
-
-import static com.neugoga.spellblock.client.ui.Ui.rarityColor;
-import static com.neugoga.spellblock.client.ui.Ui.rarityLabel;
 import com.neugoga.spellblock.library.BinderCard;
+import com.neugoga.spellblock.network.FavouriteC2SPayload;
 import com.neugoga.spellblock.network.PackOpenS2CPayload;
-
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
-
 import org.lwjgl.glfw.GLFW;
 
 import java.util.HashSet;
-import java.util.Locale;
 import java.util.Set;
+
+import static com.neugoga.spellblock.client.ui.Ui.rarityColor;
+import static com.neugoga.spellblock.client.ui.Ui.rarityLabel;
 
 /** Rips a pack, then peels one card per click. The cards are already in the binder. */
 public final class PackOpenScreen extends Screen {

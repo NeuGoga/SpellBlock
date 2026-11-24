@@ -1,28 +1,25 @@
 package com.neugoga.spellblock.client;
 
+import com.mojang.blaze3d.platform.InputConstants;
 import com.neugoga.spellblock.config.SpellBlockConfig;
 import com.neugoga.spellblock.network.BinderSyncS2CPayload;
+import com.neugoga.spellblock.network.DeckSyncS2CPayload;
 import com.neugoga.spellblock.network.DusteryPrintingsS2CPayload;
 import com.neugoga.spellblock.network.DusterySearchS2CPayload;
 import com.neugoga.spellblock.network.DusterySyncS2CPayload;
-import com.neugoga.spellblock.network.DeckSyncS2CPayload;
-import com.neugoga.spellblock.network.HandSyncS2CPayload;
 import com.neugoga.spellblock.network.HandRevealS2CPayload;
-import com.neugoga.spellblock.network.ScrySyncS2CPayload;
+import com.neugoga.spellblock.network.HandSyncS2CPayload;
 import com.neugoga.spellblock.network.OpenBinderC2SPayload;
 import com.neugoga.spellblock.network.PackOpenS2CPayload;
+import com.neugoga.spellblock.network.ScrySyncS2CPayload;
 import com.neugoga.spellblock.network.TradeSyncS2CPayload;
 import com.neugoga.spellblock.table.TableBlocks;
-
-import com.mojang.blaze3d.platform.InputConstants;
-
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
-
 import org.lwjgl.glfw.GLFW;
 
 public class SpellBlockClient implements ClientModInitializer {

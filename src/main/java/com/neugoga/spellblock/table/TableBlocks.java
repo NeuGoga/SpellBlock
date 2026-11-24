@@ -1,11 +1,7 @@
 package com.neugoga.spellblock.table;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.neugoga.spellblock.SpellBlock;
 import com.neugoga.spellblock.item.TableBlockItem;
-
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -13,6 +9,9 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class TableBlocks {
 	public static TableBlock CARD_TABLE;

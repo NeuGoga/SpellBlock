@@ -1,11 +1,8 @@
 package com.neugoga.spellblock.client;
 
-import org.joml.Matrix4f;
-
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
-
 import com.neugoga.spellblock.SpellBlock;
 import com.neugoga.spellblock.item.DeckBoxItem;
 import com.neugoga.spellblock.table.ClothPlaces;
@@ -16,7 +13,6 @@ import com.neugoga.spellblock.table.TableParts;
 import com.neugoga.spellblock.table.TableSeat;
 import com.neugoga.spellblock.table.TableSize;
 import com.neugoga.spellblock.table.TableWood;
-
 import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
@@ -32,7 +28,7 @@ import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-
+import org.joml.Matrix4f;
 import org.joml.Vector3f;
 
 /** Draws the joined table from each block's own cell, so the pedestal sits in the middle. */

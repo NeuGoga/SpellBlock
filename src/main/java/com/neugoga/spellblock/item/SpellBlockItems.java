@@ -1,16 +1,14 @@
 package com.neugoga.spellblock.item;
 
 import com.neugoga.spellblock.SpellBlock;
+import com.neugoga.spellblock.dustery.DusteryBlocks;
 import com.neugoga.spellblock.pack.PackDefinition;
 import com.neugoga.spellblock.pack.Packs;
-import com.neugoga.spellblock.dustery.DusteryBlocks;
 import com.neugoga.spellblock.table.TableBlocks;
-
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;

@@ -1,8 +1,8 @@
 package com.neugoga.spellblock.library;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 final class FinishTest {
 	@Test
