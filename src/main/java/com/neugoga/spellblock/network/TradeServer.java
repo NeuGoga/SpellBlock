@@ -639,8 +639,8 @@ public final class TradeServer {
 
 	private static void openTradeSession(MinecraftServer server, ServerPlayer initiator, ServerPlayer partner) {
 		// Release any Dustery locks held by either player before opening Trade UI
-		DusteryServer.onDisconnect(server, initiator);
-		DusteryServer.onDisconnect(server, partner);
+		DusteryServer.onDisconnect(initiator);
+		DusteryServer.onDisconnect(partner);
 
 		TradeSession session = new TradeSession(initiator.getUUID(), partner.getUUID());
 		ACTIVE_SESSIONS.put(initiator.getUUID(), session);

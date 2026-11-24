@@ -155,7 +155,7 @@ public final class DusteryServer {
 		}
 	}
 
-	public static void onDisconnect(MinecraftServer server, ServerPlayer player) {
+	public static void onDisconnect(ServerPlayer player) {
 		if (player != null) {
 			releasePlayer(player.getUUID());
 		}
@@ -297,8 +297,13 @@ public final class DusteryServer {
 			sync(player, "Pick a card first.");
 			return;
 		}
+		MinecraftServer server = player.getServer();
+		if (server == null) {
+			return;
+		}
 		int want = Math.max(1, payload.amount());
-		PlayerLibrary library = LibraryWorldData.get(player.getServer()).get(player.getUUID());
+		LibraryWorldData worldData = LibraryWorldData.get(server);
+		PlayerLibrary library = worldData.get(player.getUUID());
 		if (library == null) {
 			sync(player, "No collection.");
 			return;
@@ -317,7 +322,7 @@ public final class DusteryServer {
 			library.setFavourite(key, false);
 		}
 		library.addDust(gained);
-		LibraryWorldData.get(player.getServer()).setDirty();
+		worldData.setDirty();
 		sync(player, "Disenchanted " + take + " × " + described.name() + " for +" + gained + " dust.");
 	}
 
@@ -333,7 +338,12 @@ public final class DusteryServer {
 			sync(player, "Card index not ready.");
 			return;
 		}
-		PlayerLibrary library = LibraryWorldData.get(player.getServer()).get(player.getUUID());
+		MinecraftServer server = player.getServer();
+		if (server == null) {
+			return;
+		}
+		LibraryWorldData worldData = LibraryWorldData.get(server);
+		PlayerLibrary library = worldData.get(player.getUUID());
 		if (library == null || library.cards().isEmpty()) {
 			sync(player, "No cards to disenchant.");
 			return;
@@ -366,7 +376,7 @@ public final class DusteryServer {
 		}
 		int added = (int) Math.min(Integer.MAX_VALUE, gained);
 		library.addDust(added);
-		LibraryWorldData.get(player.getServer()).setDirty();
+		worldData.setDirty();
 		String summary = "Disenchanted " + dustedCopies + " cards for +" + added + " dust";
 		if (skippedFavCopies > 0) {
 			summary += " (" + skippedFavCopies + " fav kept).";
@@ -407,7 +417,12 @@ public final class DusteryServer {
 			return;
 		}
 
-		PlayerLibrary library = LibraryWorldData.get(player.getServer()).getOrCreate(player.getUUID());
+		MinecraftServer server = player.getServer();
+		if (server == null) {
+			return;
+		}
+		LibraryWorldData worldData = LibraryWorldData.get(server);
+		PlayerLibrary library = worldData.getOrCreate(player.getUUID());
 		Finish finish = Finish.fromName(payload.finish());
 		Printing setPrinting = SetCatalog.find(printingId);
 		PrintingOption knownOpt = KNOWN_PRINTINGS.get(printingId);
@@ -461,7 +476,6 @@ public final class DusteryServer {
 		int totalCost = (int) totalCostLong;
 		library.addDust(-totalCost);
 		library.add(key, amount);
-		LibraryWorldData worldData = LibraryWorldData.get(player.getServer());
 		if (setPrinting == null) {
 			worldData.rememberPrinting(printingId, setCode, rarity, treatment);
 		}
@@ -513,7 +527,8 @@ public final class DusteryServer {
 			ServerPlayNetworking.send(player, new DusterySearchS2CPayload(query, List.of(), 0, "Card index still building."));
 			return;
 		}
-		PlayerLibrary library = LibraryWorldData.get(player.getServer()).get(player.getUUID());
+		MinecraftServer server = player.getServer();
+		PlayerLibrary library = server == null ? null : LibraryWorldData.get(server).get(player.getUUID());
 		Map<String, Integer> ownedByOracle = new HashMap<>();
 		if (library != null) {
 			for (Map.Entry<CardKey, Integer> entry : library.cards().entrySet()) {
@@ -591,7 +606,7 @@ public final class DusteryServer {
 		}
 		MinecraftServer server = player.getServer();
 		PRINTINGS_EXEC.submit(() -> {
-			List<PrintingOption> fetched = null;
+			List<PrintingOption> fetched;
 			String error = "";
 			try {
 				fetched = fetchScryfallPrintings(oracle);
@@ -621,7 +636,7 @@ public final class DusteryServer {
 					}
 					for (UUID uuid : waiters) {
 						ServerPlayer waiter = server.getPlayerList().getPlayer(uuid);
-						if (waiter != null && hasActiveSession(waiter)) {
+						if (hasActiveSession(waiter)) {
 							ServerPlayNetworking.send(waiter, new DusteryPrintingsS2CPayload(oracleId, resultList, false, statusNote));
 						}
 					}
@@ -752,7 +767,7 @@ public final class DusteryServer {
 			typeLine = oracle.typeLine();
 		}
 		double cmc = card.has("cmc") && card.get("cmc").isJsonPrimitive() ? card.get("cmc").getAsDouble() : oracle.manaValue();
-		String colors = colors(card, "color_identity");
+		String colors = colorIdentity(card);
 		if (colors.isEmpty()) {
 			colors = oracle.colorIdentity();
 		}
@@ -844,12 +859,12 @@ public final class DusteryServer {
 		return false;
 	}
 
-	private static String colors(JsonObject card, String name) {
-		if (!card.has(name) || !card.get(name).isJsonArray()) {
+	private static String colorIdentity(JsonObject card) {
+		if (!card.has("color_identity") || !card.get("color_identity").isJsonArray()) {
 			return "";
 		}
 		StringBuilder out = new StringBuilder();
-		for (JsonElement color : card.getAsJsonArray(name)) {
+		for (JsonElement color : card.getAsJsonArray("color_identity")) {
 			if (color.isJsonPrimitive()) {
 				out.append(color.getAsString());
 			}
@@ -906,14 +921,19 @@ public final class DusteryServer {
 	}
 
 	private static void sync(ServerPlayer player, String status) {
+		MinecraftServer server = player.getServer();
+		if (server == null) {
+			return;
+		}
 		OracleIndex index = OracleService.index();
-		PlayerLibrary library = LibraryWorldData.get(player.getServer()).get(player.getUUID());
+		LibraryWorldData worldData = LibraryWorldData.get(server);
+		PlayerLibrary library = worldData.get(player.getUUID());
 		List<BinderCard> cards = new ArrayList<>();
 		int dust = library == null ? 0 : library.dust();
 		int indexSize = index == null ? 0 : index.size();
 		if (library != null && index != null) {
 			if (BinderServer.repairLibrary(library, index)) {
-				LibraryWorldData.get(player.getServer()).setDirty();
+				worldData.setDirty();
 			}
 			for (Map.Entry<CardKey, Integer> entry : library.cards().entrySet()) {
 				if (entry.getValue() <= 0) {

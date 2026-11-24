@@ -16,7 +16,7 @@ public final class TableLifecycle {
 	public static void register() {
 		ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> {
 			TableServer.onDisconnect(server, handler.getPlayer());
-			DusteryServer.onDisconnect(server, handler.getPlayer());
+			DusteryServer.onDisconnect(handler.getPlayer());
 			TradeServer.onDisconnect(server, handler.getPlayer());
 		});
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
